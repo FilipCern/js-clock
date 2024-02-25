@@ -26,12 +26,21 @@ body {
     transform: translateY(-3px);
 }
 .hand {
-    width: 50%;
+    width: 40%;
     height: 6px;
     background: black;
     position: absolute;
-    top: 50%;
-    transform-origin: 100%;
-    transform: rotate(90deg);
+    top: 45%;
+    left: 49.5%; 
+    transform-origin: 100%; 
+    transform: rotate(90deg); 
     transition: all 0.05s;
+}
+img {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+}
+.seconds-hand {
+    height: 3px;
 }
